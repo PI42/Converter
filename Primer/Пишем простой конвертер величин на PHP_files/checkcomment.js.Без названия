@@ -1,0 +1,27 @@
+function checkcomment () {
+ var r=true;
+ var author=alltrim(document.guestForm.author.value);
+ if (author.length<2) r=false;
+ else {
+  var url=alltrim(document.guestForm.url.value);
+  if (url.length>0) {
+   if (url.length<13 || !correctURL (url)) r=false;
+  }
+  else {
+   var message=alltrim(document.guestForm.message.value);
+   if (message.length<4) r=false;
+   else {
+    var code=alltrim(document.guestForm.code.value);
+    if (code.length!=4) r=false;
+   }
+  }
+ }
+ if (r==false) window.alert ('Пожалуйста, заполните обязательные поля. Если указываете URL - сделайте это корректно. Длина кода = 4 символам');
+ else document.guestForm.add.disabled=false;
+ return r;
+}
+
+function check_msg() {
+ var l=document.guestForm.message.value.length;
+ document.getElementById("helpbox").innerHTML = "Введено символов: "+l;
+}

@@ -1,0 +1,139 @@
+html {
+ height: 90%;
+ position: relative;
+}
+body {
+ background-color: #EEEEEE;
+ background-image: url(img/gr8.gif); 
+ background-repeat: repeat-x;
+ border:0;
+ margin: 0;
+ padding: 52px 0;
+ height: 90%;
+ overflow: scroll;
+}    
+.top1 {
+ width: 90%; 
+ min-width: 756px;
+ max-width: 1800px;
+ padding: 10px;
+ margin: auto;
+}
+.wrap1 {
+ background-image: url(http://blog.kislenko.net/img/left-back.png); 
+ background-repeat: repeat-y;
+ width: 90%; 
+ min-width: 756px;
+ max-width: 1800px;
+ min-height: 90%;
+ margin: 0 5%;
+}
+.main1 {
+ padding: 10px;
+}
+td img { vertical-align:bottom; line-height: 0; }
+th,td,p,li { 
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size : 12px; 
+ line-height: 18px;
+}
+h3,h4,h5,p,ul,ol,dl,pre,blockquote {
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+small {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size : 9px; 
+ line-height: 12px;
+}
+a:link,a:active { 
+ text-decoration: none; color : #006699; 
+}
+a:visited {
+ text-decoration: none; color : #003399; 
+}
+a:hover	{ 
+ text-decoration: underline; color : #DD6900; 
+}
+a[target="_blank"] { 
+ background-color: #FFFF99;
+}
+a {
+ background-color: expression((this.getAttribute("target") && this.getAttribute("target")=="_blank") ? "#FFFF99" : "transparent");
+}
+hr { 
+ height: 0px; 
+ border: solid #D1D7DC 0px; 
+ border-top-width: 1px;
+}
+h3 {
+ font-weight: bold; 
+ font-size: 18px; 
+ font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+ text-decoration: none; 
+ line-height : 120%; 
+ color : #000000;
+}
+h4 {
+ font-weight: bold; 
+ font-size: 16px; 
+ font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+ text-decoration: none; 
+ line-height : 120%; 
+ color : #000000;
+}
+h5 {
+ font-weight: bold; 
+ font-size: 14px; 
+ font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+ text-decoration: none; 
+ line-height : 120%; 
+ color : #000000;
+}
+pre {
+ font-family: "Courier New", sans-serif; font-size: 11px; color: #006600;
+ background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+ border-width: 1px;
+}
+blockquote {
+ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; line-height: 125%;
+ background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+ border-width: 1px;
+}
+form {
+ margin: 3px 2px 3px 3px; 
+}
+input,textarea,select {
+ color : #000000;
+ background-color : #FFFFFF;
+ font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+ border-color : #000000;
+ border-width: 1px;
+}
+input { text-indent : 2px; }
+.button {
+ background-color : transparent;
+ color : #000000;
+ font-size: 11px; 
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ border-style: dotted;
+ border-width: 1px;
+}
+.red { border-color: red; }
+.button0 {
+ background-color : transparent;
+ color : #000000;
+ font-size: 11px; 
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ border-style: none; 
+}
+.tab1 {
+ background-color: #FFFFFF;
+ margin: 2px; 
+ border: 1px dotted #000099;
+ padding: 8px;
+}
+.d1 {
+ font-size : 120%; 
+ color: red;
+}
