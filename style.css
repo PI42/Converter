@@ -1,10 +1,14 @@
 
 body {
 
-	background-image: url(servicios_seo2.jpg); 
+	background-image: url(fon.jpeg); 
 	background-color: rgb(109, 121, 107); 
 	color: rgb(0, 0, 0); 
-	background-size: 100%;
+	
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
 }
 
 #container {
@@ -22,7 +26,7 @@ body {
 	width: 900px;	
 	font-family: comic sans ms; 
 	font-size: 40;
-	color: green;
+	color: darkblue;
 }
 
 /*--------------таблица-------------*/
