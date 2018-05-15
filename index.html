@@ -1,39 +1,35 @@
+
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>Converter</title>
-
+  <link rel="stylesheet" type="text/css" href="style.css" >
 
 </head>
 
 
-<body style="background-image: url(servicios_seo2.jpg); background-color: rgb(109, 121, 107); color: rgb(0, 0, 0);" alink="#ee0000" link="#0000ee" vlink="#551a8b">
+<body alink="#ee0000" link="#0000ee" vlink="#551a8b">
 
 <br>
 
-<div style="text-align: center; font-weight: bold;">
-<div style="text-align: center;"><big style="color: rgb(255, 255, 255);"><big><big><big><big><big>Конвертер
-величин</big></big><br>
+<div id="container">
+<div id="header">Конвертер величин</div>
 
-<br>
-
-</big></big></big></big></div>
-
-<table style="width: 1158px; height: 295px; text-align: left; margin-left: auto; margin-right: auto;" border="2" cellpadding="2" cellspacing="2">
+<table border="2" cellpadding="2" cellspacing="2">
 
   <tbody>
 
-    <tr style="color: rgb(255, 255, 255);">
+    <tr>
 
-      <td colspan="4" rowspan="1" style="text-align: center; width: 161px;"><span style="font-weight: bold; text-decoration: underline;">Вес</span></td>
+      <th colspan="4" rowspan="1">Вес</th>
 
     </tr>
 
     <tr>
 
-      <td style="width: 208px; text-align: left;">
+      <td>
       <select tabindex="3" id="unit_from">
       <option value="34" data-url="сентиграммах">Сентиграммы(cg)</option>
       <option value="33" data-url="карат">Караты
@@ -72,23 +68,27 @@
 
       </td>
 
-      <td colspan="1" rowspan="2" style="width: 161px;"><!--div class="row value"-->
-      <div style="text-align: center;" class="column-6 tablet-column-4 mobile-column-3 left"><input tabindex="1" id="convert-value" step="any" type="number"></div>
+      <td colspan="1" rowspan="2" class="number"><!--div class="row value"-->
+      	<div>
+      		<input tabindex="1" id="convert-value" step="any" type="number">
+      	</div>
 
       </td>
 
-      <td colspan="1" rowspan="2" style="text-align: center; width: 149px;">
-      <div style="width: 167px;" class="column-2 tablet-column-2 mobile-column-1 center"><input tabindex="2" id="convert-submit" value="Конвертировать" type="submit"></div>
+      <td colspan="1" rowspan="2" class="submit">
+      	<div>
+      	 <input tabindex="2" id="convert-submit" value="Конвертировать" type="submit">
+        </div>
 
       </td>
 
-      <td style="width: 604px; color: rgb(255, 255, 255);" colspan="1" rowspan="2"><span class="result-to filled">Результат</span></td>
+      <td id="res" colspan="1" rowspan="2">Результат</td>
 
     </tr>
 
     <tr>
 
-      <td style="width: 208px; text-align: left;">
+      <td>
       <select tabindex="3" id="unit_from">
       <option value="34" data-url="сентиграммах">Сентиграммы(cg)</option>
       <option value="33" data-url="карат">Караты
@@ -129,15 +129,15 @@
 
     </tr>
 
-    <tr style="color: rgb(255, 255, 255);">
+    <tr >
 
-      <td colspan="4" rowspan="1" style="width: 208px; text-align: center;"><span style="font-weight: bold; text-decoration: underline;">Длинна</span></td>
+      <th colspan="4" rowspan="1">Длинна</th>
 
     </tr>
 
     <tr>
 
-      <td style="text-align: left;" column-3="" tablet-column-2="" mobile-column-2="" left="">
+      <td>
       <select tabindex="3" id="unit_from">
       <option value="8" data-url="ангстремов">Ангстремы
 (A)</option>
@@ -177,21 +177,21 @@
 
       </td>
 
-      <td colspan="1" rowspan="2" style="text-align: center;" column-6="" tablet-column-4="" mobile-column-3="" left="">
+      <td colspan="1" rowspan="2" class="number">
       <input tabindex="1" id="convert-value" step="any" type="number"> <br>
 
       </td>
 
-      <td colspan="1" rowspan="2" style="text-align: center;" column-2="" tablet-column-2="" mobile-column-1="" center="">
+      <td colspan="1" rowspan="2" class="submit">
       <input tabindex="2" id="convert-submit" value="Конвертировать" type="submit"> </td>
 
-      <td style="color: rgb(255, 255, 255);" colspan="1" rowspan="2"><span class="result-to filled">Результат</span></td>
+      <td id="res" colspan="1" rowspan="2">Результат</td>
 
     </tr>
 
     <tr>
 
-      <td style="text-align: left;" column-3="" tablet-column-2="" mobile-column-2="" left="">
+      <td>
       <select tabindex="3" id="unit_from">
       <option value="8" data-url="ангстремов">Ангстремы
 (A)</option>
@@ -233,15 +233,15 @@
 
     </tr>
 
-    <tr style="color: rgb(255, 255, 255);">
+    <tr>
 
-      <td colspan="4" rowspan="1" style="width: 208px; text-align: center;"><span style="font-weight: bold; text-decoration: underline;">Время</span></td>
+      <th colspan="4" rowspan="1"> Время</th>
 
     </tr>
 
     <tr>
 
-      <td style="text-align: left;" column-3="" tablet-column-2="" mobile-column-2="" left="">
+      <td>
       <select tabindex="3" id="unit_from">
       <option value="154" data-url="миллисекунд">Миллисекунды
 (ms)</option>
@@ -260,21 +260,21 @@
 
       </td>
 
-      <td colspan="1" rowspan="2" style="text-align: center;" column-6="" tablet-column-4="" mobile-column-3="" left="">
+      <td colspan="1" rowspan="2" class="number">
       <input tabindex="1" id="convert-value" step="any" type="number"> <br>
 
       </td>
 
-      <td colspan="1" rowspan="2" style="text-align: center;" column-2="" tablet-column-2="" mobile-column-1="" center="">
+      <td colspan="1" rowspan="2" class="submit">
       <input tabindex="2" id="convert-submit" value="Конвертировать" type="submit"> </td>
 
-      <td style="color: rgb(255, 255, 255);" colspan="1" rowspan="2"><span class="result-to filled">Результат</span></td>
+      <td id="res" colspan="1" rowspan="2">Результат</td>
 
     </tr>
 
     <tr>
 
-      <td style="text-align: left;" column-3="" tablet-column-2="" mobile-column-2="" left="">
+      <td>
       <select tabindex="3" id="unit_from">
       <option value="154" data-url="миллисекунд">Миллисекунды
 (ms)</option>
@@ -298,9 +298,7 @@
   </tbody>
 </table>
 
-<big><big><big><big><br>
-
-</big></big></big></big></div>
+</div>
 
 </body>
 </html>

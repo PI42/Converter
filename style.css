@@ -1,0 +1,74 @@
+
+body {
+
+	background-image: url(servicios_seo2.jpg); 
+	background-color: rgb(109, 121, 107); 
+	color: rgb(0, 0, 0); 
+	background-size: 100%;
+}
+
+#container {
+	text-align: center; 
+	font-weight: bold;
+	margin: 15px auto;
+	width: 900px;
+	height: 800px;
+}
+
+/*-------------------заголовок-----------*/
+#header {
+	text-align: center;
+	height: 100px;
+	width: 900px;	
+	font-family: comic sans ms; 
+	font-size: 40;
+	color: green;
+}
+
+/*--------------таблица-------------*/
+table {
+	width: 100%; 
+	height: 295px; 
+	float: left;
+	text-align: left; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+th {
+	text-align: center; 
+	width: 161px;
+	font-size: 25px;
+	color: darkred;
+	padding: 5px;
+}
+
+td {
+	width: 208px;
+	padding: 5px; 
+	
+}
+
+
+/*--------------выпадающие списки---------*/
+select {
+	width:230px;
+}
+
+/*--------------графа результат-----------*/
+#res {
+	width: 604px; 
+	color: yellow;
+}
+
+/*-------------поле ввода цифр---------- */
+.number{
+	width: 161px;
+	text-align: center;
+}
+
+/*-------------кнопка ковертировать--------*/
+.submit{
+	text-align: center; 
+	width: 149px;
+}
