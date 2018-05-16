@@ -102,3 +102,7 @@ input.buttons:not(.active):focus {
 input.buttons:not(:hover) {
     transition: 0.6s;
 }
+
+
+/*------------------------------------*/
+
