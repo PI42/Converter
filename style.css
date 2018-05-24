@@ -56,23 +56,22 @@ td {
 }
 
 /*-------------поле ввода цифр---------- */
-.number{
-	width: 161px;
-	text-align: center;
+input.numbers{
+	box-shadow: 0.5px 0.5px 2px 0 #a675b3;
+    background: transparent;
+    height: 34px;
+    padding: 5px;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    /*-webkit-appearance: none;*/
+	/*-moz-appearance: none;*/
+    width: 268px;
+	color: #a675b3;
 }
 
-/*-------------кнопка ковертировать--------*/
-/*.submit{
-	text-align: center; 
-	width: 149px;
-}*/
 
-
-
-/*--------------выпадающие списки---------*/
-/*select {
-	width:230px;
-}*/
+/*--------------Стиль выпадающих списков---------*/
 .new-select-style-wpandyou select {
     border-radius: 0;
     background: transparent;
