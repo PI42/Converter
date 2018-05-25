@@ -1,7 +1,8 @@
 
 body {
 
-	background-image: url(servicios_seo2.jpg);
+	/*background-image: url(servicios_seo2.jpg);*/
+	background-image: url(Grey2.jpg);
 	background-color: rgb(109, 121, 107); 
 	color: rgb(0, 0, 0); 
 	background-size: 100%;
@@ -16,14 +17,14 @@ body {
 }
 
 /*-------------------заголовок-----------*/
-#header {
+/*#header {
 	text-align: center;
 	height: 100px;
 	width: 900px;	
 	font-family: comic sans ms; 
 	font-size: 40;
 	color: green;
-}
+}*/
 
 /*--------------таблица-------------*/
 table {
@@ -39,7 +40,7 @@ th {
 	text-align: center; 
 	width: 161px;
 	font-size: 25px;
-	color: darkred;
+	color: #a675b3;
 	padding: 5px;
 }
 
@@ -52,7 +53,7 @@ td {
 /*--------------графа результат-----------*/
 #res {
 	width: 604px; 
-	color: yellow;
+	color: #a675b3;
 }
 
 /*-------------поле ввода цифр---------- */
