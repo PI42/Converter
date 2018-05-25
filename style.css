@@ -100,6 +100,7 @@ input.buttons {
   display: block;
   margin: 20px auto;
   font: normal 17px arial;
+  border-radius: 10px 40px;
 }
 
 input.buttons:not(.active) {
