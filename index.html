@@ -5,9 +5,21 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Converter</title>
 
-
-  <link rel="stylesheet" type="text/css" href="style.css">
-
+<script language="javascript">
+	function Result1(){
+	document.getElementById('res1').innerHTML='Hello     World!';
+	};
+	function Result2(){
+	document.getElementById('res2').innerHTML='Hello     World!';
+	};
+	function Result3(){
+	document.getElementById('res3').innerHTML='Hello     World!';
+	};
+</script>
+		
+		
+ 
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 
@@ -81,13 +93,12 @@
       </td>
 
       <td colspan="1" rowspan="2" class="submit">
-      <div> <input tabindex="2" id="convert-submit" value="Конвертировать" class="buttons" type="submit">
+      <div> <input tabindex="2" id="convert-submit" value="Конвертировать" class="buttons" type="submit" onclick="Result1()">
       </div>
 
       </td>
 
-      <td id="res" colspan="1" rowspan="2">Результат</td>
-
+      <td id="res1" colspan="1" rowspan="2">Результат</td>
     </tr>
 
     <tr>
@@ -192,10 +203,10 @@
       </td>
 
       <td colspan="1" rowspan="2" class="submit">
-      <input tabindex="2" id="convert-submit" value="Конвертировать" class="buttons" type="submit">
+      <input tabindex="2" id="convert-submit" value="Конвертировать" class="buttons" type="submit" onclick="Result2()">
       </td>
 
-      <td id="res" colspan="1" rowspan="2">Результат</td>
+      <td id="res2" colspan="1" rowspan="2">Результат</td>
 
     </tr>
 
@@ -281,10 +292,10 @@
       </td>
 
       <td colspan="1" rowspan="2" class="submit">
-      <input tabindex="2" id="convert-submit" value="Конвертировать" class="buttons" type="submit">
+      <input tabindex="2" id="convert-submit" value="Конвертировать" class="buttons" type="submit" onclick="Result3()">
       </td>
 
-      <td id="res" colspan="1" rowspan="2">Результат</td>
+      <td id="res3" colspan="1" rowspan="2">Результат</td>
 
     </tr>
 

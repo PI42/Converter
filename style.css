@@ -47,16 +47,18 @@ th {
 td {
 	width: 208px;
 	padding: 5px; 
-	
+	color: #a675b3;
+	text-align: center;
 }
 
 /*--------------графа результат-----------*/
-#res {
-	width: 604px; 
+/*.res {
+	width: 100px; 
 	color: #a675b3;
 	text-align: center;
-	
-}
+	padding: 0px;
+}*/
+
 
 /*-------------поле ввода цифр---------- */
 input.numbers{
